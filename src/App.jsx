@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <div className="App font-['Sen'] bg-purple-700 dark:bg-purple-950   min-h-screen md:mx-auto mr-0 max-w-[1500px]">
+    <div className="App font-['Sen'] bg-purple-700 dark:bg-purple-950 min-h-screen md:mx-auto mr-0 max-w-[1500px]">
       <Navbar handleThemeSwitch={handleThemeSwitch} theme={theme} />
       <SocialLinks />
       <Header />
